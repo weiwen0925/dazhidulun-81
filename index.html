@@ -1102,4 +1102,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C81P3:END-->
+<!--WY-C81P4:BEGIN-->
+<style id="wy-c81p4-css">
+.c81p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c81p4-fabbox.show{display:block;}
+.c81p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c81p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c81p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c81p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c81p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c81p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c81p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c81p4-modal.open{display:flex;}
+.c81p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c81p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c81p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c81p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c81p4-close:hover{background:#e3d5b8;}
+.c81p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c81p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c81p4-tbl th,.c81p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c81p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c81p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c81p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c81p4-tbl b{color:#8b2500;}
+.c81p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c81p4-note b{color:#8b2500;}
+@media(max-width:900px){.c81p4-fabbox{right:14px;}.c81p4-tbl{font-size:11.5px;}.c81p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c81p4-fabbox" id="c81p4Box"><button class="c81p4-btn" id="c81p4Btn" type="button" aria-label="開啟全景總表"><span class="c81p4-ic">▦</span><span class="c81p4-ls"><span class="c81p4-l1">本品 · 無作實相</span><span class="c81p4-l2">十八空取捨 · 斷伏與證量三軸辯證</span></span></button></div><div class="c81p4-modal" id="c81p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c81p4-card"><button class="c81p4-close" id="c81p4Close" type="button" aria-label="關閉">×</button><h3>卷八十一·第四品 釋無作實相品 · 全景總表</h3><p class="sub">卷八十一・第四品｜十八空與十四空・體用等同・柔順忍與無生法忍・名相工具論</p><table class="c81p4-tbl"><caption>一、導論三維度與空的範疇（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>全品核心張力</td><td>理論的完整性（十八空無一遺漏）與實修的對治性（十四空觀病予藥）之間，究竟隱藏何種深層般若力學</td></tr><tr><td>三軸解析路徑</td><td>空的範疇（十八空 vs 十四空）／般若的力學（斷與伏）／證量的深淺（柔順忍 vs 無生法忍），三者構成本品閉環式解析矩陣</td></tr><tr><td>舉大攝小</td><td>十八空取十四空，第十四「一切法空」是破自性見的總結，只要破諸法自性執著，有見無見即失立足點，猶如房子既空鬼影自然無處藏身</td></tr><tr><td>觀病予藥</td><td>十八空是哲學體系分別一切法相空、無一遺漏；十四空是臨床處方，為已具慈悲柔軟心的菩薩行者對治有無極端，非邏輯之減損而是效能之最大化</td></tr><tr><td>熏習與防護</td><td>空性熏透內心則面對境界了了不錯，錯誤知見無從生起；慈悲產生柔軟心，使智慧不至流於形而上的僵硬辯證，自然遠離常斷二邊</td></tr></tbody></table><table class="c81p4-tbl"><caption>二、般若的力學：斷伏等同與證量深淺</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>原典問答·斷伏等同</td><td>何以說菩薩如諸佛無貪著心？答佛斷諸煩惱習不起，菩薩以般若力制令不起；結使雖未斷，與佛斷無異，令人知貴般若力</td></tr><tr><td>體用等同</td><td>諸佛機制：根源徹底斷除→習不起→輸出無貪著（值為零）；菩薩機制：根源結使殘留→般若力制→輸出與佛斷無異（值亦為零），體不同而用無異</td></tr><tr><td>三輪體空遮止</td><td>面對罵詈割截，凡夫以意志力壓制終致煩惱反彈；菩薩以般若力觀法無生，直截否定實有生起；我僅五蘊假象，受者不可得則攻擊失去目標</td></tr><tr><td>八不中道二諦</td><td>佛證寂滅（滅）與菩薩觀無生（不生）在中觀八不框架中功能等同；世俗有習（結使未斷）對應勝義無垢（般若觀照），以勝義之空制伏世俗之有</td></tr><tr><td>柔順忍與無生法忍</td><td>破五眾和合假名眾生（人我）是柔順忍；雖觀法空未能深入猶有著法愛，未破五蘊實法（法我）；法忍不妨眾生忍，二忍兼容但以深淺為別</td></tr><tr><td>見林見樹</td><td>柔順忍看破「森林」（假名整體），知其僅是樹木集合；無生法忍進一步看破「樹木」（法／五蘊）本身亦無自性畢竟空，深海寧靜包容海面波浪</td></tr></tbody></table><table class="c81p4-tbl"><caption>三、總攝：廣度力度深度與名相工具論</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>總結矩陣</td><td>廣度（Scope）：慈悲柔軟心＋十四空，精準對治不墮極端／力度（Power）：般若觀不生＋伏結使，雖帶結使功能同佛／深度（Depth）：破假名＋捨法愛，從柔順忍推進至無生法忍</td></tr><tr><td>三軸統一系統</td><td>範疇取捨、斷伏等同、證量深淺三組問答看似獨立，實則是菩薩行者面對同一套中觀認知系統時的三種展現，非三個孤立議題</td></tr><tr><td>給專家的省思</td><td>《大智度論》建立十八空等繁複法相結構，並非構築僵硬本體論，而是作為臨床拆解執著的精準工具；菩薩最終須進一步拆解對工具本身的執著（法愛）</td></tr><tr><td>三重讓位</td><td>理論的完整必須讓位於實踐的對治；斷除的絕對必須包容現狀的制伏；對空的見解必須消融於無生的實證，三重讓位貫穿全品義理</td></tr><tr><td>全品總結</td><td>理論的減法、果位的等同、證量的深淺，皆指向同一中觀心要——名相是渡河之筏，而非彼岸本身，願讀者深入經藏、自證實相</td></tr></tbody></table><p class="c81p4-note">本品針對《大智度論》「十八空與十四空」、「斷煩惱與伏煩惱」、「柔順忍與無生法忍」三組問答，展開一場精密的般若力學分析。論主以「舉大攝小」解釋十四空何以能收攝十八空之全貌，又以「體用等同」說明菩薩雖結使未斷，卻能以般若力令其功能表現與斷盡煩惱的諸佛無異；柔順忍與無生法忍的分野，則在於破「假名眾生」（人我）之外，能否進一步破除「五蘊實法」（法我）之著。三軸看似獨立，實為同一套中觀認知系統在廣度、力度、深度三個參數上的展現，而全品最深的省思是：一切法相結構，包括十八空本身，都只是臨床拆解執著的工具，而非究竟本體。</p></div></div>
+<script id="wy-c81p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c81p4Btn"),BOX=document.getElementById("c81p4Box"),MODAL=document.getElementById("c81p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVfab,.wy-vfab,#wyVideoFab,.wy-video-fab,#fabVideo,.fab-video,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c81p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C81P4:END-->
 </body></html>
