@@ -1429,4 +1429,60 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH81P2:END-->
+<!--WY-BH81P3:BEGIN-->
+<style id="wy-bh81p3-css">
+.bh81p3-fabbox{position:fixed;right:22px;bottom:150px;z-index:123;display:none;}
+.bh81p3-fabbox.show{display:block;}
+.bh81p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh81p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh81p3-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh81p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh81p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh81p3-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh81p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh81p3-modal.open{display:flex;}
+.bh81p3-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh81p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh81p3-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh81p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh81p3-close:hover{background:#dde2e6;}
+.bh81p3-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh81p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh81p3-tbl th,.bh81p3-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh81p3-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh81p3-tbl thead th:nth-child(1){width:32%;}.bh81p3-tbl thead th:nth-child(2){width:41%;}.bh81p3-tbl thead th:nth-child(3){width:27%;}
+.bh81p3-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh81p3-guan{background:#eef2f5;color:#37505f;}
+.bh81p3-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh81p3-tbl tbody tr:nth-child(even) td.bh81p3-guan{background:#e8eef2;}
+.bh81p3-tbl b{color:#8b2500;}
+.bh81p3-guan b{color:#2f6b5a;}
+.bh81p3-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh81p3-note b{color:#8b2500;}
+@media(max-width:900px){.bh81p3-fabbox{right:14px;}.bh81p3-tbl{font-size:11px;}.bh81p3-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh81p3-fabbox" id="bh81p3Box"><button class="bh81p3-btn" id="bh81p3Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh81p3-ic">譯</span><span class="bh81p3-ls"><span class="bh81p3-l1">本品 · 原文·白話·中觀</span><span class="bh81p3-l2">白話翻譯表</span></span></button></div><div class="bh81p3-modal" id="bh81p3Modal" role="dialog" aria-modal="true"><div class="bh81p3-card"><button class="bh81p3-close" id="bh81p3Close" type="button" aria-label="關閉">×</button><h3>"卷八十一 · 第3品 白話翻譯表"</h3><p class="sub">"《大智度論》卷八十一 · 釋六度相攝品第六十八（核心矛盾與雙核驅動）· 原文↔白話↔中觀概念 逐段對照（論．二施從精進生·多處受名·密室然燈·以禪為主攝五度）"</p><table class="bh81p3-tbl"><caption>《大智度論》卷81·原文｜白話翻譯｜中觀概念（共8段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh81p3-src">問曰：一切布施皆以精進，何以但言此二施從精進生？</td><td>問：一切布施都以精進為助，為什麼只說這（法施、財施）二施是從精進而生呢？</td><td class="bh81p3-guan"><b>設問聚焦——為何獨言二施從精進生</b>——既然一切布施皆賴精進，何以經文獨標財法二施「從精進生」？此問引出「多精進力生」的分判，辨明主從輕重。</td></tr><tr><td class="bh81p3-src">答曰：雖一切施皆由精進生，此以多精進力生故。如經說：「過百千國土，以二施滿足眾生。」</td><td>答：雖然一切布施都由精進而生，但（財法二施）是因為需要更多的精進之力而生的緣故。如經中所說：「越過百千國土，以財法二施使眾生滿足。」</td><td class="bh81p3-guan"><b>多精進力故獨標</b>——一切施固皆依精進，然財法二施須跨越百千國土、不辭遠劫地滿足眾生，所需精進之力最鉅，故經文獨標「從精進生」。此顯「以多受名」——依用力最著處立名，非謂餘施不賴精進。</td></tr><tr><td class="bh81p3-src">「取尸羅波羅蜜」者，菩薩直行十善道，是名尸羅波羅蜜；或從忍辱等波羅蜜生。若菩薩從初發心乃至坐道場，捨十不善道，行四十種善道，不休不息，是名精進波羅蜜力。有人一種不能行，何況四種！亦以尸羅波羅蜜故，不生三界、不受二乘。眾生以懈怠煩惱心故，生三界中；厭惡生死故，捨佛道、取小乘，此皆是懈怠相；是故說是菩薩不貪三界、不證二乘。</td><td>「攝取戒波羅蜜」的意思是：菩薩直接修行十善道，這就叫戒波羅蜜；或者從忍辱等波羅蜜而生。若菩薩從最初發心乃至坐上道場，捨離十種不善道，修行四十種善道，不休不息，這就叫精進波羅蜜之力。有人連一種（善道）都不能行，何況四十種！也因為戒波羅蜜之力，不生於三界、不受二乘。眾生因懈怠煩惱之心，生於三界之中；因厭惡生死之故，捨棄佛道、取著小乘，這都是懈怠之相；所以說這菩薩不貪三界、不證二乘。</td><td class="bh81p3-guan"><b>四十善道不息即精進·捨二乘亦精進相</b>——十善本是戒，然「捨十不善、行四十善道不休不息」則是精進之力（一善尚難，何況四十）。論主更點出：貪三界（因懈怠煩惱）與取小乘（因厭生死捨佛道）皆是「懈怠相」；不貪三界、不證二乘正是精進的反面印證——精進不僅是勤，更是不退大乘的堅志。</td></tr><tr><td class="bh81p3-src">「取羼提波羅蜜」者，菩薩從初發心乃至坐道場，若人、若非人來割截身體持去；爾時，菩薩破我顛倒，善集畢竟空故，作是念：「此中無有割者、截者，是事皆是凡夫虛誑所見；我得大利，我知諸法實相時，能入涅槃，但為憐愍眾生故受身；眾生自來取去，我不應惜。」爾時，深入諸法實相——此中無有定相，眾生自生怖畏。以此功德與眾生共之，迴向阿耨多羅三藐三菩提。是中若有罵詈、打害、能忍者，是為「忍」；歡喜不退，是為「精進」。是二法，或從精進生忍辱，或從忍辱生精進，今從精進生忍辱。</td><td>「攝取忍辱波羅蜜」的意思是：菩薩從最初發心乃至坐上道場，若有人或非人前來割截身體帶走；這時，菩薩破除我執顛倒，因善於積集畢竟空之故，這樣想：「這其中並沒有割截者、被截者，這些事都是凡夫虛妄誑惑的所見；我得大利益，我了知諸法實相時，本能入涅槃，只為憐愍眾生才受此身；眾生自己來取去，我不應吝惜。」這時，深入諸法實相——這其中並無固定之相，是眾生自己生起怖畏。以這功德與眾生共有，迴向無上正等正覺。這其中若有辱罵、毆打傷害而能忍受的，就是「忍」；歡喜而不退轉的，就是「精進」。這二法，或從精進生忍辱，或從忍辱生精進，如今是從精進生忍辱。</td><td class="bh81p3-guan"><b>忍精進互生·今從精進生忍</b>——菩薩以「善集畢竟空」破我執，見割截中無割者截者（凡夫虛誑所見），故能忍身之奪。論主精辨：能忍苦害是「忍」、歡喜不退是「精進」，二法可雙向相生，此處特取「從精進生忍」——以歡喜不退的精進力，托起忍受割截的堪耐。</td></tr><tr><td class="bh81p3-src">「取禪波羅蜜」者。有人自然得禪定，如劫盡時；或有退得、生得；或上地生下地得。如是雖得禪定，不從精進生。有因大布施，破慳貪等五蓋，即得禪定；或有人持戒清淨、修集忍辱故，因小厭心，便得禪定；或有人大智慧力故，知欲界無常、虛誑、不淨，即得禪定；禪定雖亦虛誑，猶勝欲界。如是雖有精進，更因餘法得禪故，不名從精進生。有人不因五法為主，但日夜精進，經行坐禪，常與心鬪；以信等五力，深御五蓋，若心馳散，便攝令還，如與賊鬪，乃至流汗。如是等人得禪定，從精進生。或有菩薩鈍根，宿罪所覆，深著世樂，馳逸難制；如是人深加精進，爾乃得定。譬如有福德之人，安坐無事，福祿自至；薄福之人，勤設方便，鬪戰乃得。有福之人自然得者，名為「福德自至」；方便戰鬪得者，名為「精進而得」。如是一切處雖有精進，多處受名。</td><td>「攝取禪定波羅蜜」的意思。有人自然得禪定，如世界壞劫時；或有退轉後再得的、有由業報生得的；或由上地生於下地而得的。像這樣雖得禪定，卻不是從精進而生。有人因大布施，破除慳貪等五蓋，即得禪定；或有人因持戒清淨、修集忍辱之故，因小小的厭離心，便得禪定；或有人因大智慧之力，了知欲界無常、虛誑、不淨，即得禪定；禪定雖然也是虛誑，猶勝過欲界。像這樣雖有精進，卻另因其餘之法而得禪，所以不叫從精進生。有人不以（布施等）五法為主，只是日夜精進，經行坐禪，時常與（散亂）心鬥；以信等五力，深深防御五蓋，若心奔馳散亂，便收攝令它回來，如同與盜賊搏鬥，乃至流汗。像這樣的人得禪定，才是從精進而生。或有菩薩根性遲鈍，被宿世罪業所覆蓋，深深貪著世間欲樂，馳逸放蕩難以制伏；這種人深加精進，才得禪定。譬如有福德的人，安坐無事，福祿自然到來；薄福的人，勤設方便，搏戰才能得到。有福之人自然得到的，叫做「福德自至」；以方便搏戰而得到的，叫做「精進而得」。像這樣一切處雖都有精進，卻在（用力最著的）多處來立名。</td><td class="bh81p3-guan"><b>簡別禪定之來源·多處受名</b>——論主極細地簡別禪定的來源：劫盡自得、退得、生得、上地生得者非從精進；因施、戒、忍、慧等餘法得者亦不名精進生；唯「不因五法、但日夜與散心鬥、御五蓋乃至流汗」而得者，及鈍根宿罪深障者深加精進乃得者，才真名「精進生禪」。以「有福自至」對比「薄福戰得」，點明立名的原則——依用力最著處受名，非謂他處無精進。</td></tr><tr><td class="bh81p3-src">「取般若波羅蜜」者，菩薩精進力故，得禪波羅蜜；得禪波羅蜜故，生菩薩神通力。二事因緣故，以神通力遍至十方，未具足功德欲令具足，又欲教化一切眾生。除四波羅蜜所生般若，餘智慧多從精進生故，住精進為主，取智慧。般若波羅蜜者，有二種：一者、觀諸法實相，於一切法中不見法相、不見非法相；二者、如所說行。人有懈怠心故，不能行二事；精進力故，能具足行二事。</td><td>「攝取般若波羅蜜」的意思是：菩薩因精進之力，得禪定波羅蜜；因得禪定波羅蜜，生起菩薩的神通力。由這二事因緣，以神通力遍至十方，對尚未具足的功德想使它具足，又想教化一切眾生。除了（前）四波羅蜜所生的般若之外，其餘的智慧多從精進而生，所以以安住精進為主，攝取智慧。般若波羅蜜有兩種：一是觀照諸法實相，於一切法中不見法相、也不見非法相；二是如所說而奉行。人因有懈怠之心，不能行這二事；因精進之力，才能具足奉行這二事。</td><td class="bh81p3-guan"><b>精進生慧·觀與行二般若皆賴精進</b>——精進生禪、禪生神通、神通遍十方具德化生——層層由精進推動。般若二義（觀諸法實相「不見法相非法相」的離二邊觀慧、與如說而行的實踐）皆因懈怠而不成、因精進而具足。可見般若的知與行都須精進為持續之力，故「住精進取般若」。</td></tr><tr><td class="bh81p3-src">「住禪波羅蜜為主，取五波羅蜜」者，菩薩住禪波羅蜜中，心調柔不動，能觀察諸法實相；譬如密室然燈，光照明了，是名「住禪波羅蜜生智慧」。爾時，不惱一切眾生，又加憐愍，是名「甚深清淨持戒、忍辱」。以神通力變化財物，具足布施；又遣化人為一切說法。又菩薩從禪起，以清淨柔軟心為眾生說法，是名「布施」。因禪定力起神通，周至十方，導利一切而不懈息，是名「精進」。又因禪定令四波羅蜜增益，是名「禪定生精進」。餘義，如經廣說。</td><td>「安住禪定波羅蜜為主而攝取五波羅蜜」的意思是：菩薩安住在禪定波羅蜜中，心調柔不動，能觀察諸法實相；譬如在密室中點燈，光照分明，這就叫「安住禪定而生智慧」。這時，不惱害一切眾生，又加以憐愍，這就叫「甚深清淨的持戒、忍辱」。以神通力變化財物，具足布施；又派遣化人為一切眾生說法。又菩薩從禪定起身，以清淨柔軟之心為眾生說法，這就叫「布施」。因禪定之力起神通，周遍十方，導引利益一切而不懈息，這就叫「精進」。又因禪定使四波羅蜜增益，這就叫「禪定生精進」。其餘的義理，如經中廣說。</td><td class="bh81p3-guan"><b>密室然燈·定為體而流出五度</b>——「密室然燈，光照明了」是禪生慧的絕妙喻——定心不動故照見實相。論主由此展開定攝五度：不惱而憐愍即戒、忍；神通變財、化人說法、柔軟心說法即施；起神通導利不息即精進；令四度增益即「禪生精進」。一禪為體，五度為用，全景式收束「以禪為主」的相攝。</td></tr><tr><td class="bh81p3-src">「住般若波羅蜜為主，取五波羅蜜」者，如經中佛自廣說。</td><td>「安住般若波羅蜜為主而攝取五波羅蜜」的意思，如經中佛自己廣說。</td><td class="bh81p3-guan"><b>般若為主·佛自廣說</b>——以般若為主而攝五度，其義已於經文（即品1所譯的般若攝諸度一段）由佛親自廣說，論主此處從略。這一「指經不贅」正呼應品1般若攝五度的詳廣經文，前後相照，收束全品六度互攝的大綜合。</td></tr></tbody></table><p class="bh81p3-note">"本表為卷八十一第3品的原文·白話·中觀三欄對照，含一組問答。論主續辨「以精進為主」如何攝取戒忍禪慧：財法二施因「多精進力生」而獨標其名；捨十不善行四十善道不息、不貪三界不證二乘皆精進相；並極細簡別禪定之來源（自得／退得／生得者非從精進，唯與散心鬥、御五蓋乃至流汗者方名精進生），揭示「多處受名」之原則。末以「密室然燈，光照明了」喻禪生慧，全景展開「以禪為主攝五度」，並以「般若為主，佛自廣說」收束全品。白話忠於原意、不增不減。"</p></div></div>
+<script id="wy-bh81p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh81p3Btn"),BOX=document.getElementById("bh81p3Box"),MODAL=document.getElementById("bh81p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+var CBOX=document.getElementById("c81p3Box");
+function place(){
+  var b=null;
+  if(CBOX){var st=getComputedStyle(CBOX);var r=CBOX.getBoundingClientRect();if(st.position==="fixed"&&r.height>0&&st.display!=="none")b=Math.round(window.innerHeight-r.top)+8;}
+  if(b===null){var eb=document.querySelector(".wy-ebox");if(eb){var er=eb.getBoundingClientRect();if(er.height>4)b=Math.round(window.innerHeight-er.top)+8;}}
+  if(b===null)b=150;
+  BOX.style.bottom=b+"px"; /*BHPLACE*/
+}
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh81p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH81P3:END-->
 </body></html>
